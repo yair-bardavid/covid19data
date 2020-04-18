@@ -1,0 +1,43 @@
+body {
+  background: #fafafa;
+  color: #333333;
+  margin-top: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #444444;
+}
+
+.bg-steel {
+  background-color: #5f788a;
+}
+
+.content-section {
+  background: #ffffff;
+  padding: 10px 20px;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  margin-bottom: 20px;  
+  margin-top: 900px;  
+}
+
+/*
+.btn-label {position: relative;right: -12px;display: inline-block;padding: 6px 12px;background: rgba(0,0,0,0.15);border-radius: 3px 0 0 3px;}
+.btn-labeled {padding-top: 0;padding-bottom: 0;}
+.btn { margin-bottom:10px; }
+*/
+
+
+.btn-label {position: relative;display: inline-block;padding-right: 30px; padding-left: 30px; background: rgba(0,0,0,0.0);border-radius: 3px 0 0 3px;}
+.btn-labeled {padding-top: 0;padding-bottom: 0;padding-right: 50px; padding-left: 50px;}
+.btn {margin-bottom:10px; margin-right:10px; margin-left:10px; }
+
+.news-box {
+  min-height: 300px; 
+}
+
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 600px; /* or 950px */
+}
